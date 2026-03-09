@@ -4,10 +4,10 @@
  * Plugin URI: https://www.themeum.com/product/tutor-lms/
  * Description: Tutor LMS BunnyNet integration allows you to host your lesson videos on Tutor LMS using BunnNets’ very own Bunny Stream. Use this integration to load up and play your meticulously crafted course videos to enhance the experience for students.
  * Author: Themeum
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: https://themeum.com
  * Requires at least: 5.3
- * Tested up to: 6.1
+ * Tested up to: 6.9
  * License: GPLv3
  * Text Domain: tutor-lms-bunnynet-integration
  * Domain Path: /languages
