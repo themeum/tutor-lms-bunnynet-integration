@@ -190,7 +190,7 @@ class BunnyNet {
 		?>
 		<div class="tutor-video-player">
 			<div style="position: relative; padding-top: 56.25%;">
-				<iframe src="<?php echo esc_attr( $bunny_video_id ); ?>" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+				<iframe src="<?php echo esc_url( $bunny_video_id ); ?>" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
 			</div>
 		</div>
 		<?php
