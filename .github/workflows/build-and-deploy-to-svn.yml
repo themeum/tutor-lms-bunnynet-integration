@@ -1,6 +1,8 @@
 name: Build and Deploy to SVN
 on:
-  push:
+    push:
+      tags:
+        - "*"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
+        
       - name: Install WP-CLI
         run: |
           curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
