@@ -168,8 +168,8 @@ class BunnyNet {
 		$response   = false;
 		if ( $video_info ) {
 			$bunny_video_id = tutor_utils()->array_get( 'source_bunnynet', $video_info );
-			$bunny_video_id = str_replace( 'https://video.bunnycdn.com/play/', ' ', $bunny_video_id );
-			$bunny_video_id = str_replace( 'https://iframe.mediadelivery.net/play/', ' ', $bunny_video_id );
+			$bunny_video_id = str_replace( 'https://video.bunnycdn.com/play/', 'https://iframe.mediadelivery.net/embed/', $bunny_video_id );
+			$bunny_video_id = str_replace( 'https://iframe.mediadelivery.net/play/', 'https://iframe.mediadelivery.net/embed/', $bunny_video_id );
 			$video_source   = $video_info->source;
 			if ( 'bunnynet' === $video_source && '' !== $bunny_video_id ) {
 				$response = $bunny_video_id;
