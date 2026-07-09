@@ -3,9 +3,9 @@ Contributors: themeum
 Donate link: https://www.themeum.com
 Tags: tutor, lms, bunnynet, video, streaming
 Requires at least: 5.3
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -70,6 +70,10 @@ The compatibility of Tutor LMS BunnyNet Integration plugin has come on Tutor LMS
 3. Put Video URL to run the Video
 
 == Changelog ==
+
+= 1.0.2 - 09 July, 2026 =
+
+Fix: Failed to load video issue has been fixed.
 
 = 1.0.1 - 09 March, 2026 =
 
